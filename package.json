@@ -1,0 +1,27 @@
+{
+  "name": "queue-starter",
+  "version": "0.1.0",
+  "description": "A starting point for queue apps in node.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emiralpseniz/queue-starter"
+  },
+  "author": "Emir Alp Seniz",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn build && yarn serve",
+    "build": "yarn clean && tsc",
+    "serve": "node dist/index.js",
+    "clean": "rimraf dist"
+  },
+  "dependencies": {
+    "better-queue": "3.8.10"
+  },
+  "devDependencies": {
+    "@types/better-queue": "3.8.0",
+    "@types/node": "^9.4.6",
+    "rimraf": "2.6.2",
+    "ts-node": "^5.0.0",
+    "typescript": "^2.7.2"
+  }
+}
