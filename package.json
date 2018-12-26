@@ -4,7 +4,7 @@
   "description": "A starting point for queue apps in node.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/emiralpseniz/queue-starter"
+    "url": "https://github.com/emiralpseniz/queue-starter.git"
   },
   "author": "Emir Alp Seniz",
   "license": "MIT",
